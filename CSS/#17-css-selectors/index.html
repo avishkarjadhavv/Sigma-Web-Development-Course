@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="red">
+        I am a div with class red
+        <p>i am first child of div with class red</p>
+        <p>i am a para inside a div with class red </p>
+    </div>
+
+    <div id="green">
+        I am another div with ID green
+        <p>i am first child of div with id green</p>
+        <p>i am para inside a div with id green</p>
+    </div>
+
+    <!-- here child selector doesn't work in this para inside article which is inside div-->
+    <div>
+        <article>
+            <p>first child of article </p>
+            <p>i am a para inside article which is inside a div</p>
+        </article>
+    </div>
+
+    <span>
+        <div>
+            <p>first child of span </p>
+            <p>i am a para inside div which is inside span</p>
+        </div>
+    </span>
+
+    <a href="https://google.com">Go to GOOGLE</a>
+    <a href="https://instagram.com">Go to Instagram</a>
+
+
+</body>
+</html>

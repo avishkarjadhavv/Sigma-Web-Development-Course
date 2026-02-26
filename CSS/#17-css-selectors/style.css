@@ -1,0 +1,65 @@
+/* class selector */
+
+.red {
+    background-color: red;
+    }
+
+/* ID selector  */
+
+
+#green {
+    background-color: green;
+    }
+
+/* child selector  */
+
+
+div > p {
+    color: white;
+    background-color: black;
+    }
+
+
+/* Descendant Selector  */
+
+span p {
+    background-color: yellow;
+    color: black;
+}
+
+
+/* Universal Selector  for all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Psuedo Selector  */
+
+/* when link is visited  */
+a:visited {
+    color: pink;
+}
+
+/* when link is not visisted  */
+a:link {
+    color: green;
+}
+
+/* while link is been click */
+a:active {
+    color: black;
+}
+
+/* when cursor is on element  */
+a:hover {
+    background-color: blueviolet;
+}
+
+/* only for first child in its parent element  */
+p:first-child{
+    background-color: rgb(108, 42, 165);
+}
