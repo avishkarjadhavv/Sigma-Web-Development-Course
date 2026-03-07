@@ -1,0 +1,26 @@
+.box{
+    background-color: aqua;
+}
+
+/* go to web browser to preview this html , then inspect it , then go to style section then computed option , there you will see content , padding ,border, margin box to understand it easily */
+
+.box1{
+    color: yellow;
+     padding: 10px;
+     margin: 25px;
+     border: 2px solid blue;
+     height: 50px;
+     width: 250px;
+}
+
+.box2{
+    color: red;
+    padding: 10px;
+    margin: 25px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+*{
+    margin: 0;
+}
