@@ -1,0 +1,17 @@
+h1{
+    /* COLOR KEYWORDS */
+    /* color: darkred; */
+
+    /* hex color code --> get this code from google of any color */
+    color: #ff45ff;
+
+    /* RGB  */
+    /* color: rgb(223, 24, 226); */
+
+    /* RGBA */
+     /* color: rgba(132, 4, 45, 0.2);    */
+    /* fourth parameter 0.2 varies from 0-1 and is transparency */
+
+    /* HSL */
+    /* color: hsl(130, 61%, 44%); */
+}

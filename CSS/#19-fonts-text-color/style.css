@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+
+p {
+  font-family: "Baloo 2", sans-serif;
+  text-align: center;
+  font-size: 25px; 
+}
+
+h1{
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: red ;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  
+                                       /* text-indent moves the text horizontally */
+  /* text-indent: 650px; */
+  text-align: center;
+}
+
+#lorem{
+  /* line-height: 4;
+  letter-spacing: 6px; */
+  border: 2px solid green;
+  text-transform: uppercase;
+  width: 300px;
+  word-break:break-all;
+  /* text-overflow: clip;
+  overflow : hidden; */
+
+}
+
