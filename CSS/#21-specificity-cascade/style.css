@@ -1,0 +1,36 @@
+h1{
+    color: aqua;
+}
+
+.yellow{
+    color: yellow;
+    /* color: green !important; */
+}
+
+.purple{
+    color: purple;
+}
+
+/* id points --> (100) */
+/* #voilet{
+    color: violet;
+} */
+
+
+/* (ponits --> h1(1)+class(10) == 11)    so priority high than class at bottom */
+h1.yellow{
+    color: rgb(98, 110, 168);
+}
+
+.red{
+    color: red;
+}
+
+
+/* quick quiz */
+
+/* a.harry-class.rohan-class[href]:hover{
+    color: pink;
+} */
+
+/* answer => a-element(1) + harry-class(10) + rohan-class(10) + href-attribute(10) + hover-psuedo_class(10) == 41 ; */
