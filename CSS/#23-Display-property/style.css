@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid blue;
+    display: inline;
+    padding: 45px;
+    margin: 34px;
+    width: 344px;
+    /* here width doesn't apply , it should be display : inline-block; then only width */
+
+}
+
+.box2{
+    border: 2px solid red;
+    display: inline-block;
+    margin: 34px;
+    padding: 45px;
+    width: 344px;
+
+    display: inline-flex;
+    /* use this "inline-flex" rather than only "flex" */
+    justify-content: center;
+    /* display:flex; justify-content :   for slide the content to centre left right up down  */
+}
+
+.hide{
+    visibility: hidden;
+    /* to hide and occupy space */
+
+    /* display: none; */
+    border: 2px solid red;
+    display: inline;
+    margin: 34px;
+    padding: 45px;
+}
