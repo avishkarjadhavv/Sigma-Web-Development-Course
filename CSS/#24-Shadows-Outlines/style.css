@@ -1,0 +1,55 @@
+/* box shadow - syntax */
+
+    /* box-shadow: h-effect v-offset blur spread color inset */
+
+
+/* TEXT shadow - syntax */
+
+    /* text-shadow: h-effect v-offset blur spread color */
+
+
+.box{
+    display: inline-block;
+}
+
+#box1{
+    border: 2px solid black;
+    padding: 34px;
+    /* width: 344px; */
+    box-shadow: 5px 15px 5px #888;
+    margin: 45px;
+    width: 200px;
+}
+
+#box2{
+    border: 2px solid black;
+    padding: 34px;
+    /* width: 344px; */
+    box-shadow: 5px 15px 5px #888 inset;
+    margin:45px;
+    width: 200px;
+}
+
+#txt{
+    border: 2px solid black;
+    padding: 34px;
+    /* width: 344px; */
+    box-shadow: 5px 15px 5px #888;
+    text-shadow: 15px 15px 1px #888;
+    margin: 45px;
+    width: 200px;
+}
+
+#outline{
+    border: 5px solid black;
+    padding: 34px;
+    /* width: 344px; */
+    box-shadow: 5px 15px 5px #888 ;
+    outline: 12px solid blueviolet;
+
+    /* outline-offset: px; for space between edge of border and outline */
+    outline-offset: 19px;
+
+    margin:45px;
+    width: 200px;
+}
