@@ -1,0 +1,17 @@
+nav ul li{
+    /* list-style: devanagari; */
+    list-style-position: inside;
+    /* display: inline-block; */
+
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    border: 2px solid black;
+    background-color: aqua;
+    
+    /* for changing list type */
+    /* list-style-type: '🔥'; */
+
+    /* for changing list type to image or video through its url path */
+    /* list-style-image: url("meme2.jpg"); */
+}
