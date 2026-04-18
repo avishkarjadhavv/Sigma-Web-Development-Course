@@ -1,0 +1,84 @@
+.box1{
+    border: 2px solid black;
+    width: 290px;
+    height: 100px;
+    margin: 65px;
+    padding: 30px;
+
+    /* to avoid overflow : use :- overflow : scroll; */
+    overflow : scroll;
+
+}
+
+.box2{
+    border: 2px solid black;
+    width: 80vh;
+    height: 20vh;
+    margin: 65px;
+    padding: 30px;
+
+    /* to automatically detect and avoid overflow : use :- overflow : auto; */
+    overflow : scroll;
+
+    /* to avoid vertical scroll and only use horizontal scroll ; */
+    white-space: nowrap;
+
+}
+
+.box3{
+    border: 2px solid black;
+    width: 80vh;
+    height: 30vh;
+    margin: 65px;
+    padding: 30px;
+
+    /* to automatically detect and avoid overflow : use :- overflow : auto; */
+    overflow : auto;
+
+}
+
+.box4{
+    border: 2px solid black;
+    width: 40vh;
+    height: 20vh;
+    margin: 65px;
+    padding: 30px;
+
+    /* to automatically detect and avoid overflow : use :- overflow : auto; */
+    overflow : hidden;
+
+    /* to avoid vertical scroll and only use horizontal scroll ; */
+    white-space: nowrap;
+
+    /* to add dots at the end of visibile content */
+    text-overflow: ellipsis;
+
+}
+
+.box5{
+    border: 2px solid black;
+    width: 40vh;
+    height: 20vh;
+    margin: 65px;
+    padding: 30px;
+
+    /* to controll overflow in x and y axis  */
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+
+    /* alternate way for doing this :  */
+    overflow: scroll hidden;
+}
+
+
+#inline-block1{
+    display: inline-block;
+}
+
+#inline-block2{
+    display: inline-block;
+}
+
+#inline-block3{
+    display: inline-block;
+}
